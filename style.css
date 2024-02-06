@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif, Arial, Helvetica, sans-serif; 
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+.item {
+    width: 600px;
+    height: 100%;
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.item .heading1{
+    margin-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item .para1 {
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item .preparation{
+    width: 100%;
+    height: 150px;
+    background-color: lightyellow;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top:20px ;
+    color: palevioletred;
+}
+
+.dot{
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+
+.item .preparation .list1 {
+    color: blue;
+    margin-top: 10px;
+} 
+
+.item .preparation .list1 .prep{
+    margin-top: 10px;
+}
+
+
+.item .preparation .list1 .cook{
+    margin-top: 10px;
+}
+
+.item .ingredient{
+    margin-top: 20px;
+    color:chocolate;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item .list2{
+    margin-top: 20px;
+}
+
+.item .list2 .t2{
+    margin-top: 5px;
+}
+
+.item .list2 .t3{
+    margin-top: 5px;
+}
+
+.item .list2 .t4{
+    margin-top: 5px;
+}
+
+
+.item .list2 .t5{
+    margin-top: 5px;
+}
+
+.item .line1{
+    margin-top: 30px;
+}
+
+.item .instruction{
+    margin-top: 30px;
+    color:chocolate;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item .list3{
+    margin-top: 25px;
+}
+
+/* FOR BEAT THE EGGS*/
+.item .list3 .l1{
+    display: flex;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item .list3 .l1 .num1{
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+
+.list3 .text{
+    flex-grow: 0;
+}
+
+/*FOR HEAT THE PAN*/
+.item .list3 .l2{
+    display: flex;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item .list3 .l2 .num2{
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+.list3 .text2{
+    flex-grow: 0;
+}
+
+/*FOR COOK THE OMELETE*/
+.item .list3 .l3{
+    display: flex;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.item .list3 .l3 .num3{
+    flex-shrink: 0;
+    margin-right: 5px;
+}  
+
+.list3 .text3{
+    flex-grow: 0;
+}
+
+/*FOR ADD FILLINGS*/
+.item .list3 .l4{
+    display: flex;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item .list3 .l4 .num4{
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+
+.list3 .text4{
+    flex-grow: 0;
+}
+
+/*FOR FOLD AND SERVE*/
+
+.item .list3 .l5{
+    display: flex;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item .list3 .l5 .num5{
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+
+.lsit3 .text5{
+    flex-grow: 0;
+}
+
+/*FOR ENJOY*/
+
+.item .list3 .l6{
+    display: flex;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item .list3 .l6 .num6{
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+
+.lsit3 .text6{
+    flex-grow: 0;
+}
+
+
+.list3 .num1,
+.list3 .num2,
+.list3 .num3,
+.list3 .num4,
+.list3 .num5,
+.list3 .num6 {
+    
+    width: 20px;
+    text-align: right;
+    margin-right: 8px;   
+}
+
+.item .line2{
+    margin-top: 30px;
+}
+
+.item .nutrition{
+    margin-top: 20px;
+    color:chocolate;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item .slide{
+    margin-top: 20px; 
+}
+
+.item .calorie{
+    margin-top: 30px;
+}
+.item .calorie .content{
+    padding-left: 250px;
+}
+.item .line3{
+    margin-top: 20px;
+}
+
+.item .carbs{
+    margin-top: 20px;
+}
+.item .carbs .content2{
+    padding-left: 268px;
+}
+
+.item .line4{
+    margin-top: 20px;
+}
+
+.item .protein{
+    margin-top: 30px;
+}
+
+.item .protein .content3{
+    padding-left: 259px;;
+}
+
+.item .line5{
+    margin-top: 30px;
+}
+
+.item .fat{
+    margin-top: 20px;
+}
+
+.item .fat .content4{
+    padding-left: 289px;
+}
